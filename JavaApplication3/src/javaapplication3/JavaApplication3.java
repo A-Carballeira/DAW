@@ -14,7 +14,14 @@ public class JavaApplication3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("esta es la rama de daniel, aqui se restan 2 numeros");
+        int a = 10;
+        int b = 9;
+        int resultado = resta(a,b);
+        System.out.println(resultado);
+
     }
-    
+    public static int resta(int a, int b){
+        return a-b;
+    }
 }
